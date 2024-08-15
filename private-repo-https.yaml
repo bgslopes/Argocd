@@ -1,0 +1,12 @@
+    apiVersion: v1
+    kind: Secret
+    metadata:
+      name: private-repo-https
+      namespace: argocd
+      labels:
+        argocd.argoproj.io/secret-type: repository
+    stringData:
+      type: git
+      url: https://github.com/bgslopes/Argocd.git
+      password: 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
+      username: argocd
