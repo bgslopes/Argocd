@@ -9,7 +9,7 @@ spec:
     server: "https://kubernetes.default.svc"
   project: default
   source: 
-    path: argocd
+    path: "guestbook"
     repoURL: "https://github.com/bgslopes/Argocd.git"
     targetRevision: main
   syncPolicy:
