@@ -11,7 +11,7 @@ spec:
   source: 
     path: sync-options/sync-options/no-prune-app
     repoURL: "https://github.com/bgslopes/Argocd.git"
-    targetRevision: main
+    targetRevision: master
     directory:
       recurse: true
   syncPolicy:
