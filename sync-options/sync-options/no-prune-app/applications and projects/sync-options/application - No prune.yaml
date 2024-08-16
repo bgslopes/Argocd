@@ -9,9 +9,9 @@ spec:
     server: "https://kubernetes.default.svc"
   project: default
   source: 
-    path: sync-options/no-prune
+    path: sync-options/sync-options/no-prune-app
     repoURL: "https://github.com/bgslopes/Argocd.git"
-    targetRevision: 
+    targetRevision: main
     directory:
       recurse: true
   syncPolicy:
